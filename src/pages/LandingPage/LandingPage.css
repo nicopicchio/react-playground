@@ -1,0 +1,32 @@
+img {
+  width: 300px;
+}
+
+a {
+  background-color: #84dbff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: #324a5e;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #54c0eb;
+  color: #ffffff;
+}
+
+h1 {
+  color: #324a5e;
+}
+
+h2 {
+  color: #fd8469;
+}
+
+#landing-page-container {
+  height: 100vh;
+  display: grid;
+  gap: 2rem;
+  place-content: center;
+  justify-items: center;
+}
