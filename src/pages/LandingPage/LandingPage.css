@@ -16,17 +16,19 @@ a:hover {
 }
 
 h1 {
+  text-align: center;
   color: #324a5e;
 }
 
 h2 {
+  text-align: center;
   color: #fd8469;
 }
 
 #landing-page-container {
   height: 100vh;
   display: grid;
-  gap: 2rem;
+  gap: 3rem;
   place-content: center;
   justify-items: center;
 }

@@ -7,7 +7,7 @@ export default function LandingPage() {
     <div id='landing-page-container'>
       <img src={MainLogo} alt='react logo' />
       <h1>Welcome to Nico's Coding Playground</h1>
-      <h2>A place where I practice my Dev skills</h2>
+      <h2>Here I practice my Dev skills</h2>
       <Link to='/home'>Enter</Link>
     </div>
   )
