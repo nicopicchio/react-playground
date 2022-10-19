@@ -1,5 +1,10 @@
+import MainLogo from '../assets/main-logo.svg'
+import { Link } from 'react-router-dom'
+
 export default function Header() {
   return (
-    <h2>I am the header component</h2>
+    <div className='header-container'>
+      <img src={MainLogo} className='header-main-logo' alt='main logo' />
+    </div>
   )
 }

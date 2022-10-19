@@ -1,6 +1,6 @@
 import '../App.css';
 import Header from '../components/Header';
 
-export default function Homepage() {
+export default function Dashbaord() {
 	return <Header />;
 }

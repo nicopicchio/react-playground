@@ -1,8 +1,17 @@
-img {
+h1 {
+  text-align: center;
+  color: #324a5e;
+}
+
+.landing-page-main-logo {
   width: 300px;
 }
 
-a {
+.header-main-logo {
+  width: 100px;
+}
+
+.enter-btn {
   background-color: #84dbff;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
@@ -10,22 +19,18 @@ a {
   font-weight: bold;
 }
 
-a:hover {
+.enter-btn:hover {
   background-color: #54c0eb;
   color: #ffffff;
 }
 
-h1 {
-  text-align: center;
-  color: #324a5e;
-}
 
-h2 {
+.landing-page-subtitle {
   text-align: center;
   color: #fd8469;
 }
 
-#landing-page-container {
+.landing-page-container {
   height: 100vh;
   display: grid;
   gap: 3rem;
